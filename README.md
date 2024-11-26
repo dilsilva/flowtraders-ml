@@ -36,7 +36,6 @@
   - **Why**: Provides a centralized access control layer with fine-grained permissions.
   - **Trade-Off**: Relies on Google-managed services, which may introduce operational overhead if custom authentication is required.
   - **Improvement Opportunities**:
-    - More granular control over permissions for each kind of user through code.
     - Integrate IAP with an existing enterprise identity provider (e.g., Okta, Active Directory).
     - Configure access logs and monitoring for compliance and troubleshooting.
 
@@ -58,6 +57,7 @@
   - **Trade-Off**:
     - New IAM roles or permissions require Terraform changes, which may slow down immediate access adjustments.
   - **Improvement Opportunities**:
+    - More granular control over permissions for each kind of user through code.
     - Use **IAM Conditions** for time-based or attribute-based access policies.
     - Integrate with **Google Workspace Groups** to simplify user role assignments.
 
