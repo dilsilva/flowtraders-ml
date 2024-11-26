@@ -1,8 +1,6 @@
-# Writing the implementation plan into a Markdown file
-content = """
 # Terraform GCP Infrastructure Implementation Plan (PART 1)
 
-![Architecture schema](Implementation.md)
+![Architecture schema](architecture.png)
 
 ## **1. High-Level Architecture**
 
@@ -114,9 +112,9 @@ content = """
 ---
 
 ## **5. Documentation Plan**
-The `README.md` will:
+The `READMEPART2.md` will:
 1. **Explain Architecture**: High-level overview of components and their purpose.
-2. **Detail Module Usage**: Include examples and variable descriptions.
-3. **Provide Runbooks**:
+2. **Describe Module Usage**: Briefly describe how to implement the code
+3. **Provide Runbooks (TO DO)**:
    - Steps for common operations (e.g., scaling GPU nodes, adding IAM users).
    - Recovery procedures for CloudSQL and Filestore.
