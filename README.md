@@ -1,4 +1,4 @@
-# Terraform GCP Infrastructure Implementation Plan (PART 1)
+# Kubeflow GCP Infra Implementation Plan (PART 1)
 
 ![Architecture schema](architecture.png)
 
