@@ -21,9 +21,6 @@ variable "gpu_node_config" {
     count            = number
   })
 }
-variable "rbac_users" {
-  type = list(string)
-}
 variable "database_name" {}
 variable "cloudsql_instance_type" {}
 variable "bucket_name" {}

@@ -4,5 +4,3 @@ variable "cluster_name" {}
 variable "network_name" {}
 variable "subnetwork_name" {}
 variable "gpu_node_config" {}
-variable "rbac_users" {}
-# variable "cidr_block" {}

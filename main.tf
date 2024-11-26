@@ -46,7 +46,6 @@ module "gke" {
   network_name    = module.networking.network_name
   subnetwork_name = module.networking.subnetwork_name
   gpu_node_config = var.gpu_node_config
-  rbac_users      = var.rbac_users
 }
 
 module "cloudsql" {
