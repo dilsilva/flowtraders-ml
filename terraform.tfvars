@@ -25,8 +25,6 @@ gpu_node_config = {
   count            = 1
 }
 
-rbac_users = ["user1@example.com", "user2@example.com", "user3@example.com"]
-
 database_name          = "my-database"
 cloudsql_instance_type = "db-n1-standard-2"
 bucket_name            = "bucket-test-flowtraders-disilva"
