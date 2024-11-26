@@ -2,7 +2,7 @@
 content = """
 # Terraform GCP Infrastructure Implementation Plan (PART 1)
 
-![Architecture schema](./Implementation.md)
+![Architecture schema](Implementation.md)
 
 ## **1. High-Level Architecture**
 
