@@ -1,11 +1,11 @@
 
 resource "google_container_cluster" "primary" {
-  project            = var.project_id
-  name               = var.cluster_name
-  location           = var.region
-  network            = var.network_name
-  subnetwork         = var.subnetwork_name
-  initial_node_count = 1
+  project             = var.project_id
+  name                = var.cluster_name
+  location            = var.region
+  network             = var.network_name
+  subnetwork          = var.subnetwork_name
+  initial_node_count  = 1
   deletion_protection = false
 }
 
